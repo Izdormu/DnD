@@ -1,0 +1,66 @@
+
+.char{
+width: 100%;
+
+&__items{
+    height: 80px;
+    
+}
+&__item{
+   
+    border:2px solid black;
+    border-radius: 10px;
+    height: 80px;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: center;
+    
+    &_heroName{
+        display: flex;
+        justify-content: flex-start;
+        font-size: 12px;
+        margin-left: 3px;
+        margin-top: 3px;
+    }
+    &-name{
+        font-size: 25px;
+        text-align: center;
+        width: 100%;
+         
+    }
+    &-input{
+    
+        margin-top: 5px;
+        font-size: 10px;
+        text-align: center;
+        border:none;
+        box-sizing: border-box;
+        outline: none;
+        
+    }
+    
+}
+&-input{
+    
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    align-self: center;
+    width: 100%;
+    border:none;
+    box-sizing: border-box;
+    outline: none;
+    &_name{
+        margin-top: 20px;
+        
+    }
+}
+&__input:focus{
+    outline: none;
+}
+
+
+
+
+
+}
